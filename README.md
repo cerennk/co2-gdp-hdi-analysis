@@ -108,5 +108,5 @@ All analysis and interpretation will be done independently by me.
 - Extend analysis to **time-series** or **panel data** for long-term trends.  
 - Include **renewable energy share**, **education index**, or **carbon intensity** variables.  
 - Compare results regionally (OECD vs developing countries).
-  
+- Data availability and temporal coverage (2010–2024) may limit the number of comparable countries.”
 ---
