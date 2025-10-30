@@ -1,19 +1,12 @@
 # CO₂ Emissions, GDP, HDI, Life Expectancy & Gender Inequality — Cross-Country Analysis
 
 ## Abstract
-This project examines how countries’ **CO₂ emissions**, **Gross Domestic Product (GDP)**, **Human Development Index (HDI)**, **Life Expectancy**, and **Gender Inequality Index (GII)** are related.  
-The aim is to understand whether industrial and economic growth lead to higher living standards and equality, or if they come at an environmental and social cost.  
-Using open datasets and Python-based analysis, the project applies data cleaning, visualization, statistical testing, and regression modeling to identify significant relationships between these key indicators.
+This project examines how countries’ **CO₂ emissions**, **Gross Domestic Product (GDP)**, **Human Development Index (HDI)**, **Life Expectancy**, and **Gender Inequality Index (GII)** are related.  The aim is to understand whether industrial and economic growth lead to higher living standards and equality, or if they come at an environmental and social cost. Using open datasets and Python-based analysis, the project applies data cleaning, visualization, statistical testing, and regression modeling to identify significant relationships between these key indicators.
 
 ---
 
 ## Motivation
-I chose this topic because I am genuinely interested in the connection between **economic growth, sustainability, and life expectancy**.  
-While high-income countries often perform better in education, health, and living standards, they are also responsible for a large share of global CO₂ emissions.  
-This led me to question whether **true development can occur without increasing environmental costs**, and if sustainable countries can still maintain strong economic and social outcomes.  
-Through this project, I aim to explore whether **CO₂ emissions might be inversely related** to human development and equality — meaning that nations with lower emissions could still achieve high HDI and longer life expectancy.  
-
-The project brings together my interests in **economics, sustainability, and data science**, and helps me strengthen my analytical skills by working with real, multi-source global datasets.
+I chose this topic because I am genuinely interested in the connection between **economic growth, sustainability, and life expectancy**. While high-income countries often perform better in education, health, and living standards, they are also responsible for a large share of global CO₂ emissions. This led me to question whether **true development can occur without increasing environmental costs**, and if sustainable countries can still maintain strong economic and social outcomes. Through this project, I aim to explore whether **CO₂ emissions might be inversely related** to human development and equality — meaning that nations with lower emissions could still achieve high HDI and longer life expectancy. The project brings together my interests in **economics, sustainability, and data science**, and helps me strengthen my analytical skills by working with real, multi-source global datasets.
 
 ---
 
