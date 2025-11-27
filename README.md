@@ -31,7 +31,7 @@ All data are publicly available and ethically obtained.
 | Life Expectancy | Average life expectancy at birth by country | [Kaggle - HDI Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/human-development-index-dataset) |
 | Gender Inequality Index (GII) | Measure of gender inequality in health, empowerment, and labor | [Kaggle - HDI Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/human-development-index-dataset) |
 
-All datasets will be merged using ISO3 country codes and aligned between **2010–2024**.
+All datasets will be merged using ISO3 country codes and aligned between **2010–2019**.
 
 ---
 
