@@ -51,12 +51,11 @@ All datasets were merged using ISO3 country codes and aligned between **2010–2
 - Saved the consolidated dataset as `master_cross_section.csv`.
 
 ### Exploratory Data Analysis
-- Generated descriptive statistics (mean, median, variance, missing values).  
-- Visualized distributions using histograms and kernel density plots.  
-- Created correlation matrices and pairwise scatter plots for key variables.  
-- Produced country-ranked bar charts (CO₂, HDI).  
-- Compared continents using boxplots for CO₂ and HDI.  
-- (Optional) Plotted global choropleth maps for CO₂ and HDI using Plotly.
+- Generated descriptive statistics (mean, median, variance, missing values) for CO₂, GDP, HDI, Life Expectancy, and GII.  
+- Inspected distributions and pairwise patterns using a seaborn pairplot (KDE on the diagonal and scatter plots off-diagonal).  
+- Created a correlation heatmap for the main variables (CO₂, GDP, HDI, Life Expectancy, GII).  
+- Produced country-ranked bar charts for the top 20 CO₂ emitters and top 20 countries by HDI.  
+- Compared regions using continent-level boxplots for CO₂, HDI, Life Expectancy, GDP, and GII.  
 
 ### Statistical Testing
 - Pearson and Spearman correlations were used to test the four main hypotheses.  
@@ -88,14 +87,38 @@ These expectations were only partially supported by the results.
 
 ---
 
-## Results Summary
-(See full results below.)
+## 📌 Hypothesis Test Results (2019)
 
-- **H1 (CO₂–GDP):** Weak but statistically significant positive correlation. GDP alone does not strongly predict CO₂.  
-- **H2 (GDP–Life Expectancy):** Supported; positive relationship but influenced by high-income outliers.  
-- **H3 (GDP–GII):** Not supported; gender inequality does not consistently decline with GDP.  
-- **H4 (CO₂–HDI):** Not supported; CO₂ is not negatively related to HDI. Developed countries tend to show both high HDI and high emissions.
+| Hypothesis | Pearson r | Pearson p-value | Spearman r | Spearman p-value | Decision | Interpretation |
+|-----------|------------|------------------|-------------|-------------------|----------|----------------|
+| **H1: CO₂ → GDP** (expected +) | **0.847** | < 0.001 | **0.929** | < 0.001 | **Reject H₀** | Strong positive relationship; high-GDP countries emit more CO₂. |
+| **H2: GDP → Life Expectancy** (expected +) | **0.199** | 0.0098 | **0.570** | < 0.001 | **Reject H₀** | Higher GDP is associated with longer life expectancy. |
+| **H3: GDP → GII** (expected –) | **–0.191** | 0.0134 | **–0.487** | < 0.001 | **Reject H₀** | Higher GDP countries tend to have lower gender inequality. |
+| **H4: CO₂ → HDI** (expected –) | **0.115** | 0.138 | **0.509** | < 0.001 | **Fail to Reject H₀** | No negative relationship; high-HDI countries often have high emissions. |
 
+### 🔍 Summary Interpretation
+- **H1, H2, H3 are supported** using both Pearson and Spearman correlations.  
+  GDP is positively associated with CO₂ and Life Expectancy, and negatively associated with GII.  
+- **H4 is not supported**. CO₂ emissions do not decrease as HDI increases; many high-HDI countries also have high emissions.
+  
+---
+
+## Visualizations Used
+
+The analysis is supported by the following visualizations:
+
+- **Correlation heatmap** for CO₂, GDP, HDI, Life Expectancy, and GII  
+- **Pairwise scatter plots (pairplot)** showing relationships and KDE distributions  
+- **Top 20 bar charts**:
+  - Top 20 countries by total CO₂ emissions  
+  - Top 20 countries by HDI  
+- **Continent-level boxplots** for:
+  - CO₂ emissions  
+  - HDI  
+  - Life Expectancy  
+  - GDP  
+  - Gender Inequality Index (GII)
+    
 ---
 
 ## Tools & Environment
