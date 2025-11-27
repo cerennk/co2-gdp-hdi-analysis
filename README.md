@@ -56,7 +56,7 @@ All datasets were merged using ISO3 country codes and aligned between **2010–2
 - Created a correlation heatmap for the main variables (CO₂, GDP, HDI, Life Expectancy, GII).  
 - Produced country-ranked bar charts for the top 20 CO₂ emitters and top 20 countries by HDI.  
 - Compared regions using continent-level boxplots for CO₂, HDI, Life Expectancy, GDP, and GII.
-- Generated world choropleth maps for CO₂ emissions, HDI, GDP, and GII using Plotly. 
+- Generated world choropleth maps for CO₂ emissions, HDI, GDP, and GII using Plotly.
 
 ### Statistical Testing
 - Pearson and Spearman correlations were used to test the four main hypotheses.  
@@ -120,7 +120,7 @@ The analysis is supported by the following visualizations:
   - GDP  
   - Gender Inequality Index (GII)
 - **World maps**:
-  - Choropleth map of CO₂ emissions, HDI, GDP, and GII (2019)
+  - Choropleth map of CO₂ emissions, HDI, GDP, Life Expectancy and GII (2019)
     
 ---
 
