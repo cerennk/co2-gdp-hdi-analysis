@@ -1,0 +1,5 @@
+name,r,p,significant,expected_direction,decision
+H1: CO₂ vs GDP (expected positive),0.8473101282091168,3.29124532466469e-47,True,positive,H₀ Reject
+H2: GDP vs Life Expectancy (expected positive),0.19948242917843867,0.009750652099046887,True,positive,H₀ Reject
+H3: GDP vs GII (expected negative),-0.1909671990519249,0.01343224258837503,True,negative,H₀ Reject
+H4: CO₂ vs HDI (expected negative),0.11517588541875082,0.13829821156995445,False,negative,H₀ Accept
