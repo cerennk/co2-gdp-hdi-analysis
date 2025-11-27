@@ -127,7 +127,7 @@ The analysis is supported by the following visualizations:
 ## Tools & Environment
 - **Language:** Python  
 - **Libraries:** pandas, numpy, seaborn, matplotlib, scipy, plotly  
-- **Environment:** Google Colab  
+- **Environment:** Google Colab (Jupyter-based notebook)
 - **Version Control:** GitHub  
 
 ---
