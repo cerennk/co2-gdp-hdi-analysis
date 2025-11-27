@@ -87,7 +87,7 @@ These expectations were only partially supported by the results.
 
 ---
 
-## 📌 Hypothesis Test Results (2019)
+## Hypothesis Test Results
 
 | Hypothesis | Pearson r | Pearson p-value | Spearman r | Spearman p-value | Decision | Interpretation |
 |-----------|------------|------------------|-------------|-------------------|----------|----------------|
@@ -96,7 +96,7 @@ These expectations were only partially supported by the results.
 | **H3: GDP → GII** (expected –) | **–0.191** | 0.0134 | **–0.487** | < 0.001 | **Reject H₀** | Higher GDP countries tend to have lower gender inequality. |
 | **H4: CO₂ → HDI** (expected –) | **0.115** | 0.138 | **0.509** | < 0.001 | **Fail to Reject H₀** | No negative relationship; high-HDI countries often have high emissions. |
 
-### 🔍 Summary Interpretation
+### Summary Interpretation
 - **H1, H2, H3 are supported** using both Pearson and Spearman correlations.  
   GDP is positively associated with CO₂ and Life Expectancy, and negatively associated with GII.  
 - **H4 is not supported**. CO₂ emissions do not decrease as HDI increases; many high-HDI countries also have high emissions.
